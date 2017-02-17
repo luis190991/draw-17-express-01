@@ -4,6 +4,7 @@
   "description": "Demo de la clase de DRAW.",
   "main": "index.js",
   "scripts": {
+    "start": "supervisor index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/luis190991/draw-17-express-01#readme",
   "dependencies": {
-    "express": "^4.14.1"
+    "express": "^4.14.1",
+    "pug": "^2.0.0-beta11"
   }
 }
